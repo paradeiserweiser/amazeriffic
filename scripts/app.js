@@ -2,12 +2,11 @@ var main = function () {
     "use strict";
     
     var toDos= [
-        "Finish writing this book",
-        "Take Gracie to the park",
-        "Answer emails",
-        "prep for Monday's class",
-        "Make up some new todos",
-        "Get groceries"
+        
+        "Urlaub machen",
+        "Irmi einkaufen",
+        "Annika impfen",
+        "Paul Zahnarzt"
     ];
     //represents our n possible tabs
     var tabNo;
