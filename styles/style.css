@@ -1,0 +1,138 @@
+body {
+	background: #f9e933;
+	/*font-family: 'Open Sans', sans-serif;*/
+	
+}
+
+header, main, footer {
+	min-width:855px;
+
+}
+
+
+header .container, main .container, footer .container {
+	max-width:855px;
+	margin: auto;
+
+}
+
+header {
+	background: white;
+	
+	overflow:auto;
+	padding-top:20px;
+	padding-bottom: 50px;
+}
+main {
+	background:white;
+	overflow:auto;
+}
+
+a {
+	text-decoration: none;
+	color:red;
+
+}
+a:hover {
+	text-decoration:underline;
+}
+
+header h1 {
+	/*font-family: 'Ubuntu', sans-serif;*/
+	font-size: 30pt;
+	color: #742f37;
+	float:left;
+	width:570px;
+}
+header nav {
+	float:right;
+	width:285px;
+}
+
+main h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20pt;
+	font-weight:bold;
+	
+}
+main h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15pt;
+	
+}
+
+.reasons {
+	padding-top:20px;
+}
+
+.image {
+	float:right;
+	width:285px;
+}
+
+.content {
+	float:left;
+	width:570px;
+}
+
+.contact {
+	float:left;
+	width:570px;
+	padding-top:50px;
+}
+.address {
+	padding-top:10px;
+}
+.sitemap {
+	
+	float:right;
+	width:285px;
+	padding-top:50px;
+}
+
+.leftSitemap {
+	float:left;
+	width:122px;
+	padding-top:10px;
+}
+.rightSitemap {
+	float:right;
+	width:122px;
+	padding:10px;
+}
+h5 {
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width:100px;
+	margin-right:10px;
+	text-align: center;
+	background: #ddd;
+	padding:5px;
+}
+.tabs a span.active {
+	background:#eee;
+}
+.toDo-input {
+	
+	width:285px;
+	padding-top:20px;
+	padding-left:10px;
+}
+.content {
+	background:lightgray;
+	width:855px;
+	padding-top:20px;
+	padding-left:10px;
+	padding-bottom:20px;
+}
+.toDos li {
+	background: lavender;
+}
+
+.toDos li {
+	border-bottom:solid lightgray 10px;
+}

@@ -1,0 +1,37 @@
+body {
+	background:lightcyan;
+	width: 800px;
+	margin: auto;
+	font-size: 100%;
+}
+
+h1 {
+	color: maroon;
+	text-align:center;
+}
+h2 {
+	font-family: 'Krona One', sans-serif;
+}
+.first {
+	color: gray;
+	border: 1px solid gray;
+	padding: 10px;
+}
+a {
+	color: tomato;
+}
+a:visited {
+	color:green;
+}
+
+.usp li:nth-child(2) {
+	background: orange;
+}
+
+nav {
+	width: 200px;
+	float:right;
+}
+.doubleSize {
+	font-size: 2em;
+}
